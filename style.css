@@ -1,0 +1,73 @@
+body {
+    background-image: url("bg6.jpeg");
+    font-family: 'Dosis', sans-serif;
+    height: 2000px;
+}
+
+h1 {
+    padding-top: 150px;
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 0%;
+    text-align: center;
+    color: #eee;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0%;
+    text-align: center;
+    color: #eee;
+    padding-bottom: 100px;
+}
+
+h3 {
+    font-size: 62px;
+    font-weight: bold;
+    margin: 0%;
+    text-align: center;
+}
+
+.tabContainer {
+    width: 100%;
+    height: 350px;
+}
+
+.tabContainer .buttonContainer {
+    height: 15%;
+}
+
+.tabContainer .buttonContainer button {
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: solid;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #bebebe;
+}
+
+.tabContainer .buttonContainer button:hover{
+    background-color: #414141;
+    font-weight: bolder;
+    color: white;
+}
+
+.tabContainer .tabPanel{
+    background-color: #eee;
+    color: black;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 22px;
+    display: none;
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 2%;
+    font-size: 32px;
+}
