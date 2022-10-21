@@ -1,17 +1,17 @@
 body {
-    background-image: url("images/bg6.jpeg");
+    background-image: url("images/bg.jpeg");
     font-family: 'Dosis', sans-serif;
-    height: 2000px;
+    padding-bottom: 250px;
 }
 
 h1 {
-    padding-top: 150px;
+    padding-top: 100px;
     font-size: 100px;
     font-weight: bolder;
     margin: 0%;
     text-align: center;
-    color: #eee;
-    padding-bottom: 100px;
+    color: whitesmoke;
+    padding-bottom: 75px;
 }
 
 h2 {
@@ -19,8 +19,8 @@ h2 {
     font-weight: bold;
     margin: 0%;
     text-align: center;
-    color: #eee;
-    padding-bottom: 100px;
+    color: whitesmoke;
+    padding-bottom: 75px;
 }
 
 h3 {
@@ -31,8 +31,9 @@ h3 {
 }
 
 .tabContainer {
-    width: 100%;
-    height: 350px;
+    width: 80%;
+    height: 400px;
+    margin: auto;
 }
 
 .tabContainer .buttonContainer {
@@ -51,23 +52,21 @@ h3 {
     background-color: #bebebe;
 }
 
-.tabContainer .buttonContainer button:hover{
+.tabContainer .buttonContainer button:hover {
     background-color: #414141;
     font-weight: bolder;
     color: white;
 }
 
-.tabContainer .tabPanel{
+.tabContainer .tabPanel {
     background-color: #eee;
     color: black;
-    padding-top: 20px;
     box-sizing: border-box;
     font-size: 22px;
     display: none;
-    padding-bottom: 20px;
+    padding: 5%;
 }
 
 p {
-    margin: 2%;
-    font-size: 32px;
+    font-size: 25px;
 }
