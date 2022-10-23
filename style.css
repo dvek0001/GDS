@@ -70,3 +70,16 @@ h3 {
 p {
     font-size: 25px;
 }
+
+.sub {
+    font-size: 32px;
+}
+
+.footer {
+    padding: 50px;
+    color: #eee;
+}
+
+.fa {
+    color: #eee;
+}
